@@ -1,0 +1,9 @@
+routes:
+- path: '/'
+  module: 'app.pages'
+  class: 'Home'
+  methods: ['GET']
+- path: '/login'
+  module: 'app.login'
+  class: 'Login'
+  methods: ['GET','POST']
